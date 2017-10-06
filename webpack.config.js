@@ -9,7 +9,10 @@ module.exports = {
     filename: 'index.js'
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js'],
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   module: {
     loaders: [
