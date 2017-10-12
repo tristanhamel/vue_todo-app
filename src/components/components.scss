@@ -1,0 +1,19 @@
+// we put component styles here because it's such a small project
+
+// animate new items in
+
+.list-group-item {
+  transition: background 0.5s;
+}
+
+.todo-list-enter-active {
+  transition: all 0.5s;
+}
+
+.todo-list-enter {
+  opacity: 0;
+}
+
+.todo-list-move {
+  transition: transform 0.7s;
+}

@@ -1,8 +1,12 @@
 import Vue from 'vue';
+import { app } from './components/app';
 
-const app = new Vue({
+import './styles/bootstrap.scss';
+import './styles/vars.scss';
+
+const vm = new Vue({
   el: '#app',
-  data: {
-    msg: 'Hie there!'
+  components: {
+    app
   }
 });
